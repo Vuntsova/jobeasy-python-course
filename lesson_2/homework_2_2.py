@@ -5,8 +5,18 @@
 # If number is  greater than 15 and less than or equal to 20, save the number raised to the power 3 to result_1
 # Else save the text "Wrong value" to result_1
 
-number = None
+number = 5
 result_1 = None
+
+if 0 < number <= 7:
+    result_1 = number * 10
+elif 7 < number <= 15:
+    result_1 = number // 3
+elif 15 < number <= 20:
+    result_1 = number ** 3
+else:
+    result_1 = "Wrong value"
+
 
 
 # Enter two numbers between 1 and 10, save this values to number_1 variable and number_2 variables.
@@ -17,9 +27,18 @@ result_1 = None
 # If both numbers are greater than 5 and less than or equal to 10, multiply their sum by 3 and save it to result_2
 # Else save the text "Wrong values, try again" to result_2
 
-number_1 = None
-number_2 = None
+number_1 = 5
+number_2 = 2
 result_2 = None
+
+if 0 < number_1 <= 5 and 0 < number_2 <= 5:
+    result_2 = number_1 * number_2
+elif 5 < number_1 <= 10 or 5 < number_2 <= 10:
+    result_2 = number_1 + number_2
+elif 5 < number_1 <= 10 and 5 < number_2 <= 10:
+    result_2 = (number_1 + number_2) * 3
+else:
+    result_1 = "Wrong values, try again"
 
 # Enter your first name and save it to first_name variable,
 # then Enter last name and save it to last_name

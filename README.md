@@ -1,3 +1,9 @@
+---
+noteId: "cc31c170e56211ea8417c1ea1acf0f2e"
+tags: []
+
+---
+
 # JobEasy Python course
 
 To check your homework: 
